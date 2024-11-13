@@ -3,9 +3,10 @@
   "version": "1.2.0",
   "main": "index.js",
   "bin": "./bin/cryptodex.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon  --experimental-modules index.js"
   },
   "author": "Tushar Kalra",
   "license": "ISC",
