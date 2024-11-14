@@ -7,4 +7,5 @@ console.log("Starting ....");
 program
   .version(pkg.version)
   .command("key", " manage API key -- https://pro.coinmarketcap.com")
+  .command("check", "Check the crypto price")
   .parse(process.argv);

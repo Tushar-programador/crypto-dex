@@ -7,5 +7,6 @@ program
   .action(key.set);
 program.command("rev").description("Remove API key ").action(key.remove);
 program.command("get").description("Get API key ").action(key.get);
+program.command("show").description("Show API key ").action(key.show);
 
 program.parse(process.argv);
