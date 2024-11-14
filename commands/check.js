@@ -4,7 +4,7 @@ import {
   allCryptoPrice,
   singleCryptoPrice,
   multiCryptoPrice,
-} from "../utils/constants.js";
+} from "../lib/constants.js";
 const check = {
   price(cmd) {
     let response = null;
